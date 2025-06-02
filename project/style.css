@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.Datepicker-UI{
+    width: 240px;
+    height: 50px;
+/* background-color: rgb(206, 218, 218); */
+position: absolute;
+    left: 780px;
+    top: 280px;
+    display: flex;
+}
+
+
+.date-picker ::input {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    /* justify-content: center;
+    align-items: center; */
+    display: flex;
+}
+
+
+.date-picker ::placeholder {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    left: 10px;
+}
+
+
+
+.calendar-icon {
+    width: 39px;
+    height: 21px;
+    /* background-color: blue; */
+    position: absolute;
+    left: 130px;
+}
+
+.calendar-icon img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 20px;
+}
+
+.calendar{
+    width: 200px;
+    height: 35px;
+    /* background-color: rgb(130, 130, 172); */
+    position: absolute;
+    top: 30px;
+    left: 1px;
+    border: ridge;
+}
+
+
+.calendar-header{
+    width: 30px;
+    height: 25px;
+    /* background-color: red; */
+    position: absolute; 
+    top: 5px;
+}
+
+.calendar-header img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+}
+
+.calendar-date{
+    width: 20px;
+    height: 25px;
+    /* background-color: blue; */
+    position: absolute;
+}
+
+.calendar-date p{
+    width: 110px;
+    height: 20px;
+    /* background-color:blue; */
+    position: absolute;
+    left: 35px;
+    top: -14px;
+}
+
+.next{
+    width: 30px;
+    height: 25px;
+    /* background-color: green; */
+    position: absolute;
+    left: 150px;
+}
+
+.next img{
+   width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    /* background-color: red; */
+}
+
+
+.calendar-days {
+    /* background-color: rgb(119, 78, 78); */
+    width: 150px;
+    position: absolute;
+    top: 350px;
+    left: 780px;
+      border-collapse: collapse;
+  /* border: 2px solid #333; */
+  gap: 10px;
+    border: ridge;
+}
+
+.weeks{
+    /* background-color: rgb(142, 92, 92); */
+    width: 100px;
+    border: none;
+    gap: 10px;
+    text-align: center;
+}
+
+.days{
+    /* align-items: center; */
+    background-color:white;
+    border: none;
+    gap: 10px;
+    text-align: center;
+}
