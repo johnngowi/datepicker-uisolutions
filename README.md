@@ -1,1 +1,1 @@
-https://github.com/johnngowi/datepicker-uisolutions
+project URL https://github.com/johnngowi/datepicker-uisolutions
